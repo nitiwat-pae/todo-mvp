@@ -43,7 +43,7 @@ export default function Page() {
 
   return (
     <main style={{ maxWidth: 560, margin: '40px auto', padding: 16 }}>
-      <h1>Todo MVP</h1>
+      <h1 className="bg-slate-500">Todo MVP</h1>
 
       <form onSubmit={addTodo} style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
         <input
